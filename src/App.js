@@ -1,10 +1,13 @@
 import React from'react';
+import Header from './components/Header/Header';
+import Serach from './components/Search/Serach';
 
 
 function App() {
   return (
-    <div className="App">
-        <h1>Hello</h1>
+    <div>
+        <Header/>
+        <Serach/>
     </div>
   );
 }
