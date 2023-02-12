@@ -14,7 +14,22 @@ const Navbar = () => {
         <div className="navlink">
           <ul className="nav">
             <li>
-              <link></link>
+              <link to="/">home</link>
+            </li>
+            <li>
+              <link to="/pages">pages</link>
+            </li>
+            <li>
+              <link to="/user">user account</link>
+            </li>
+            <li>
+              <link to="/vendor">vendor account</link>
+            </li>
+            <li>
+              <link to="/track">track my order</link>
+            </li>
+            <li>
+              <link to="/contact">contact</link>
             </li>
           </ul>
         </div>
