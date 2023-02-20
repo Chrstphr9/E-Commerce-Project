@@ -1,14 +1,18 @@
 import React from 'react'
 import Head from './Head/Head'
 import Navbar from './NavBar/Navbar'
-import Serach from './Search/Serach'
+import Search from './Search/Serach'
+import { BrowserRouter as Router, Routes} from 'react-router-dom'
 
 const Header = () => {
   return (
     <>
-    <Head />
-    <Serach />
-    <Navbar />
+    
+      <Head />
+      <Search />
+      <Navbar />
+     
+    
     </>
   )
 }
