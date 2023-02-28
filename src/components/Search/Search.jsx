@@ -1,4 +1,5 @@
 import React from 'react'
+import './Search.css'
 import logo from '../assets/images/logo.svg'
 import { Link } from 'react-router-dom'
 
