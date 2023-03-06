@@ -13,6 +13,7 @@ function App() {
 
     <Routes>
       <Route exact path='/' component={Home} />
+      Route
     </Routes>
    </Router>
     </>
