@@ -1,6 +1,6 @@
 import React from'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Header from './components/header/Header';
 import Home from './pages/home/Home';
 
@@ -12,8 +12,7 @@ function App() {
     <Header />
 
     <Routes>
-      <Route exact path='/' component={Home} />
-      Route
+      <Route exact path='/' element={<Home />} />
     </Routes>
    </Router>
     </>
